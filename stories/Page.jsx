@@ -18,7 +18,7 @@ export const Page = () => {
       <section className="storybook-page">
         <h2>Pages in Storaybook</h2>
         <p>
-          We recommend building UIs with a{" "}
+          We recommend builsding UIs with a{" "}
           <a
             href="https://componentdriven.org"
             target="_blank"
