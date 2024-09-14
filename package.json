@@ -8,6 +8,7 @@
     "build-storybook": "storybook build",
     "chromatic": "chromatic --exit-zero-on-changes"
   },
+  "repository": "git@github.com:itxch/storybook-test.git",
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -21,7 +22,12 @@
     "@storybook/react-vite": "^8.3.0",
     "@storybook/test": "^8.3.0",
     "chromatic": "^11.10.2",
+    "prettier": "^3.3.3",
     "prop-types": "^15.8.1",
+    "semantic-release": "^24.1.1",
     "storybook": "^8.3.0"
+  },
+  "volta": {
+    "node": "20.17.0"
   }
 }

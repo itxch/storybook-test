@@ -1,6 +1,6 @@
-name: "Chromatic"
+name: "Version"
 
-on: release
+on: push
 
 jobs:
   chromatic:
@@ -19,7 +19,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run Chromatic
-        uses: chromaui/action@latest
-        with:
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npx semantic-release
