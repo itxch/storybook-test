@@ -1,6 +1,11 @@
 name: "Version"
 
-on: push
+on:
+  push:
+    branches:
+      - main
+    tags-ignore:
+      - '**'
 
 jobs:
   chromatic:
