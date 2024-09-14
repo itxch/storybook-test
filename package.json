@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "author": "",
   "license": "ISC",
