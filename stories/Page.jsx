@@ -16,7 +16,7 @@ export const Page = () => {
       />
 
       <section className="storybook-page">
-        <h2>Pages in Storaybook</h2>
+        <h2>Pages in Stollraybook</h2>
         <p>
           We recommend builsding UIs with a{" "}
           <a
