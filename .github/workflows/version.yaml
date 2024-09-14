@@ -7,6 +7,10 @@ on:
     tags-ignore:
       - '**'
 
+concurrency:
+  group: version
+  cancel-in-progress: false
+
 jobs:
   chromatic:
     name: Semantic Release
